@@ -1,0 +1,26 @@
+﻿<Window x:Class="CourseWork.Windows.EditUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseWork.Windows"
+        mc:Ignorable="d"
+       Title="Назначение автора" Height="480" Width="275" Background="#D6D7C7">
+    <Grid>
+        <Label Content="Изменение пользователя" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold"/>
+        <Button x:Name="AcceptBtn" Foreground="#FFFF" Content="Изменить" HorizontalAlignment="Left" Margin="45,406,0,0" VerticalAlignment="Top" Background="#929594" Click="Button_Click" FontFamily="Comic Sans MS" FontSize="25" FontWeight="Normal" Width="178"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="18" Width="158"/>
+        <TextBox x:Name="LoginTb" HorizontalAlignment="Left" Margin="10,80,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="248" Height="30" RenderTransformOrigin="0.533,-0.249"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="10,105,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="18" Width="177"/>
+        <TextBox x:Name="PasswordTb" HorizontalAlignment="Left" Margin="10,135,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="248" Height="30" RenderTransformOrigin="0.533,-0.249"/>
+        <Label Content="Эл.почта" HorizontalAlignment="Left" Margin="10,160,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="18" Width="177"/>
+        <TextBox x:Name="EmailTb" HorizontalAlignment="Left" Margin="10,190,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="248" Height="30" RenderTransformOrigin="0.533,-0.249"/>
+        <Label Content="Роль" HorizontalAlignment="Left" Margin="10,215,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="18" Width="177"/>
+        <TextBox x:Name="RoleTb" HorizontalAlignment="Left" Margin="10,245,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="248" Height="30" RenderTransformOrigin="0.533,-0.249"/>
+        <Label Content="Занятый объем" HorizontalAlignment="Left" Margin="10,270,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="18" Width="248"/>
+        <TextBox x:Name="StorageTb" HorizontalAlignment="Left" Margin="10,300,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="248" Height="30" RenderTransformOrigin="0.533,-0.249"/>
+        <Label Content="Максимальный объем" HorizontalAlignment="Center" Margin="0,325,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="18" Width="255"/>
+        <TextBox x:Name="MaxStorageTb" HorizontalAlignment="Left" Margin="10,355,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="248" Height="30" RenderTransformOrigin="0.533,-0.249"/>
+
+    </Grid>
+</Window>

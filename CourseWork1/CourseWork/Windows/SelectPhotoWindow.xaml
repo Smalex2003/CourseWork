@@ -1,0 +1,19 @@
+﻿<Window x:Class="CourseWork.Windows.SelectPhotoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseWork.Windows"
+        mc:Ignorable="d"
+        Title="Выбранная фотография" Height="400" Width="570" Background="#D6D7C7">
+    <Grid>
+
+        <Label Content="Выбранная фотография" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="25" FontWeight="Bold"/>
+        <Button x:Name="InMainBtn" Foreground="#FFFF" Content="Назад" HorizontalAlignment="Left" Margin="10,315,0,0" VerticalAlignment="Top" Background="#929594" Click="InMainBtn_Click" FontFamily="Comic Sans MS" FontSize="25" FontWeight="Normal" Width="122"/>
+        <Button x:Name="DeleteBtn" Foreground="#FFFF" Content="Удалить" HorizontalAlignment="Left" Margin="190,315,0,0" VerticalAlignment="Top" Background="#929594" Click="DeleteBtn_Click" FontFamily="Comic Sans MS" FontSize="25" FontWeight="Normal" Width="122"/>
+        <Button x:Name="InfBtn" Foreground="#FFFF" Content="Информация" HorizontalAlignment="Left" Margin="380,315,0,0" VerticalAlignment="Top" Background="#929594" Click="InfBtn_Click" FontFamily="Comic Sans MS" FontSize="25" FontWeight="Normal" Width="163"/>
+        <Button x:Name="SelectPlaceBtn" Foreground="#FFFF" Content="Назначить место" HorizontalAlignment="Left" Margin="320,50,0,0" VerticalAlignment="Top" Background="#929594" Click="SelectPlaceBtn_Click" FontFamily="Comic Sans MS" FontSize="25" FontWeight="Normal" Width="220" RenderTransformOrigin="0.637,0.159"/>
+        <Button x:Name="SelectAuthorBtn" Foreground="#FFFF" Content="Назначить автора" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Background="#929594" Click="SelectAuthorBtn_Click" FontFamily="Comic Sans MS" FontSize="25" FontWeight="Normal" Width="222" RenderTransformOrigin="0.637,0.159"/>
+        <Image Name="PhotoImage" HorizontalAlignment="Left" Height="215" Margin="132,94,0,0" VerticalAlignment="Top" Width="301"/>
+    </Grid>
+</Window>
